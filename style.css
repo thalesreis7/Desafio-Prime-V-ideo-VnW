@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+  background-color: #1e1e1e;
+  text-align: center;
+  height: 100px;
+  padding-top: 20px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.menu {
+  font-family: "Rboto";
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  padding: 60px;
+  cursor: pointer;
+}
+
+.menu:hover {
+  color: aqua;
+  transition: 0.3ms;
+}
+
+.prime {
+  width: 1310px;
+  height: 450px;
+}
+
+/* MAIN */
+
+section {
+  text-align: center;
+}
+
+div {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+  margin: 17px 11px 0px 40px;
+}
+
+.seta {
+  display: inline-block;
+  width: 49px;
+}
+
+.seta figure {
+  display: block;
+}
+
+.seta img {
+  display: inline-block;
+  margin: 3px 0px 265px 0px;
+}
+
+.setaDireita {
+  display: inline-block;
+  width: 49px;
+}
+
+.setaDireita figure {
+  display: block;
+}
+
+.setaDireita img {
+  display: inline-block;
+  margin: 3px 0px 265px 0px;
+}
+
+.imgCatalog {
+  width: 354px;
+  height: 546px;
+  padding: 10px 34px 7px 10px;
+  margin-right: 1px;
+  cursor: pointer;
+}
+
+.titleTheBoys {
+  font-family: "Roboto";
+  font-weight: 800;
+  margin-left: 26px;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.titleChris {
+  font-family: "Roboto";
+  font-weight: 800;
+  margin-left: 45px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.titleInterStellar {
+  font-family: "Roboto";
+  font-weight: 800;
+  margin-left: 49px;
+  font-size: 24px;
+}
+
+.titleSenhorDosAneis {
+  font-family: "Roboto";
+  font-weight: 800;
+  margin-left: 23px;
+  font-size: 22px;
+}
+
+.titleTheBigBang {
+  font-family: "Roboto";
+  font-weight: 800;
+  margin-left: 31px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.titleTopGun {
+  font-family: "Roboto";
+  font-weight: 800;
+  margin-left: 36px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #1e1e1e;
+  width: 1310px;
+  height: 108px;
+  margin-top: 80px;
+  display: inline-block;
+}
+
+.links {
+  display: inline-block;
+  margin: 3px;
+}
+
+.links li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.links p {
+  color: white;
+  font-family: "Actor";
+  font-size: 20px;
+  margin: 39px 0px 0px 14px;
+  display: inline-block;
+}
+
+.links img {
+  width: 43px;
+  margin: 14px 3px 0px 13px;
+  display: inline-block;
+}
